@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(75, 159, 255) !important;
+}
+
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+#gaygg {
+  padding-top: 25vh;
+}
+
+.submitBox {
+  display: flex;
+  justify-content: center;
+  height: 3vh;
+  width: 100%;
+
+}
+
+.submitBox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 36.3vh;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.submitButton {
+  width: 5vh;
+  height: 3.5vh;
+  border: none;
+  background-color: rgb(75, 159, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  height: 3vh;
+  width: 30vh;
+  border: none;
+
+}
+
+h2 {
+  color: aliceblue;
+}
