@@ -23,12 +23,10 @@ class App extends React.Component {
     await axios.post('http://localhost:3002/joker/baby', {url: 'https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/' + this.state.Username})
     
     .then(res => {
-      window.location.assign("/gay/" + this.state.Username);
-      console.log('better penis')
+      window.location.assign("/gamer/" + this.state.Username);
     })
 
     .catch(err => {
-      console.log('penis')
       window.location.assign("/yourtrash");
     })
   } 
@@ -39,7 +37,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div id='title'>
-          <h1 id='gaygg'>GAY.GG</h1>
+          <h1 id='gamergg'>GAMER.GG</h1>
         </div>
 
         <div className='submitBox'>
