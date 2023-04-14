@@ -11,7 +11,7 @@ ReactDOM.render(
     <Router>
       <div>
         <Route exact path="/" component={App} />
-        <Route exact path="/gay/:Username" component={Info} />
+        <Route exact path="/gamer/:Username" component={Info} />
         <Route exact path="/yourtrash" component={Garbo} />
       </div>
     </Router>
