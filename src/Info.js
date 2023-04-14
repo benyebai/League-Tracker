@@ -408,7 +408,7 @@ class Info extends React.Component {
                       </div>
                         
                       <div className='text4'>
-                        <a className='others-text-username' href={"http://localhost:3000/gay/" + res.data.info.participants[i].summonerName}>{res.data.info.participants[i].summonerName}</a>
+                        <a className='others-text-username' href={"http://localhost:3000/gamer/" + res.data.info.participants[i].summonerName}>{res.data.info.participants[i].summonerName}</a>
                       </div>
                       
                       <div className='text5'>
@@ -484,7 +484,7 @@ class Info extends React.Component {
                       </div>
                         
                       <div className='text4'>
-                        <a className='others-text-username' href={"http://localhost:3000/gay/" + res.data.info.participants[i].summonerName}>{res.data.info.participants[i].summonerName}</a>
+                        <a className='others-text-username' href={"http://localhost:3000/gamer/" + res.data.info.participants[i].summonerName}>{res.data.info.participants[i].summonerName}</a>
                       </div>
                       
                       <div className='text5'>
@@ -548,7 +548,7 @@ class Info extends React.Component {
                 container = (
                   <div id='main'>
                   <Accordion>
-                    <div id='gay'>
+                    <div id='gamer'>
                     {topPart}
                       <CustomToggle eventKey="0" winloss={win}>
 
